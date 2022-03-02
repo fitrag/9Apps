@@ -533,7 +533,7 @@ router.get("/nineapps/top-apps/:page?", (req, res) => {
         res.json(err);
       });
   } catch {
-    console.log("Tidak dapat mengambil data");
+    console.log("Tidak dapat mengambil data ada masalah");
   }
 });
 
